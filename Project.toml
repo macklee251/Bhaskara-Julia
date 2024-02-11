@@ -1,0 +1,7 @@
+name = "Bhaskara"
+uuid = "53da3c32-7de8-40bd-b502-f1dfa4dea0d5"
+authors = ["mack lee <114943402+macklee251@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
