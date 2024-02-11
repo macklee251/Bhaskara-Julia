@@ -1,3 +1,4 @@
+"åß∂ƒ©˙∆˚¬µ√∫ç∂´∑œ∑´®†¥¨ˆøπ“‘«æ…¬˚∆˙©ƒ∂ßå"
 module Bhaskara
 
 export bhaskara
@@ -10,10 +11,9 @@ function bhaskara(a, b, c)
     if a == 0
         throw(ArgumentError("o 'a' precisa ser diferente de zero"))
     end
-    local delta = b^2 - 4*a*c
-    local Sdelta = sqrt(Complex(delta))
-    return (-b + Sdelta) / 2a, (-b - Sdelta) / 2a
+    local ∆ = b^2 - 4*a*c
+    local S∆ = sqrt(Complex(∆))
+    return (-b + S∆) / 2a, (-b - S∆) / 2a
 end
 
 end # module Bhaskara
-
